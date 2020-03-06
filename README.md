@@ -4,3 +4,4 @@
 * 语言：typescript
 * 代码检查: eslint，airbnb 
 * 单元测试: jest, ts-jest
+* React测试框架：enzyme
