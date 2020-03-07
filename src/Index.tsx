@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Button } from '@/components';
 
 export default function Index(): React.ReactElement {
   const [count, setCount] = useState(0);
@@ -16,9 +17,9 @@ export default function Index(): React.ReactElement {
 
   return (
     <div className="wrapper">
-      <button onClick={handleClick} type="button">
+      <Button onClick={handleClick} type="button">
         计数
-      </button>
+      </Button>
       <div>count: {count}</div>
     </div>
   );

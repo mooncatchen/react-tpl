@@ -15,7 +15,9 @@ module.exports = {
     "tsx",
     "node"
   ],
-  moduleNameMapper: {},
+  moduleNameMapper: {
+    "@/(.*)$": "rootDir/src/$1",
+  },
   modulePathIgnorePatterns: [],
   resetMocks: false,
   resetModules: false,
